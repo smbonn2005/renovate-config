@@ -6,7 +6,7 @@
       "mergeConfidence:all-badges",
       ":dependencyDashboard",
       ":disableRateLimiting",
-      ":enablePreCommit",
+      "helpers:pinGitHubActionDigests",
       "github>smbonn2005/renovate-config:autoMerge",
       "github>smbonn2005/renovate-config:customManagers",
       "github>smbonn2005/renovate-config:labels",
