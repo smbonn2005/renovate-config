@@ -14,7 +14,7 @@
         "automerge": true,
         "automergeType": "branch",
         "matchUpdateTypes": ["patch", "digest"],
-        "matchPackagePatterns": ["ghcr.io/bjw-s", "ghcr.io/bjw-s-labs", "ghcr.io/onedr0p", "ghcr.io/smbonn2005"]
+        "matchPackageNames": ["/bjw-s/", "/bjw-s-labs/", "/onedr0p/", "/smbonn2005/"]
       },
       {
         "description": "Auto-merge Helm Releases",
