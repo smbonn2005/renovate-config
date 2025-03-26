@@ -7,15 +7,14 @@
       ":dependencyDashboard",
       ":disableRateLimiting",
       "helpers:pinGitHubActionDigests",
+      ":timezone(America/New_York)",
       "github>smbonn2005/renovate-config:autoMerge",
-      "github>smbonn2005/renovate-config:customManagers",
       "github>smbonn2005/renovate-config:labels",
       "github>smbonn2005/renovate-config:semanticCommits"
     ],
-    "timezone": "America/New_York",
     "dependencyDashboardTitle": "Renovate Dashboard 🤖",
-    "suppressNotifications": ["prEditedNotification", "prIgnoreNotification"],
-    "commitBodyTable": true,
-    "rebaseWhen": "conflicted",
-    "platformCommit": "enabled"
+    "suppressNotifications": [
+      "prEditedNotification",
+      "prIgnoreNotification"
+    ]
   }
